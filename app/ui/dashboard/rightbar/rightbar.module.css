@@ -1,0 +1,54 @@
+.container {
+  position: fixed;
+  
+
+}
+.item {
+    background: linear-gradient(to top, #182237, #253352);
+    padding: 20px 24px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.bgContainer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  height: 50%;
+}
+.bg{
+    opacity: .5;
+    object-fit: contain;
+}
+.texts {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.notificatin{
+    font-weight: bold;
+}
+
+
+.subtitles{
+    color: var(--textSoft);
+    font-weight: 500;
+    font-size: 12px;
+}
+.desc{
+    color: var(--textSoft);
+font-size: 14px;
+}
+.button {
+  display: flex;
+  align-items: center;
+  width: max-content;
+  background-color: #5d57c9;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  color: white;
+  gap: 10px;
+}

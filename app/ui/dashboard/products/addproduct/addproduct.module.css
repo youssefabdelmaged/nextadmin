@@ -1,0 +1,54 @@
+.container {
+  background-color: var(--bgSoft);
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.form {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.form input,
+.form textarea,
+.form select {
+  color: var(--text);
+  border-radius: 10px;
+  padding: 30px;
+  margin-bottom: 30px;
+  border: 2px solid #2e374a;
+  background-color: #2e374a73;
+}
+
+.form input,
+.form textarea,
+.form select:focus {
+  outline: none;
+  color: var(--text);
+}
+.form textarea,.form select {
+  width: 100%;
+}
+
+.form input,
+.form select  {
+  width: 45%;
+}
+
+.form button {
+  width: 100%;
+  padding: 30px;
+  background-color: teal;
+  color: var(--text);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.form button:hover {
+  background-color: #0deeee;
+}
+
+
+

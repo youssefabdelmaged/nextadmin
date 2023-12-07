@@ -1,0 +1,92 @@
+.container {
+  display: flex;
+  gap: 50px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.infocontainer {
+  flex: 1;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: var(--bgSoft);
+  font-weight: bold;
+  color: var(--textSoft);
+  height: fit-content;
+}
+.userImage {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 1000px) {
+  .container {
+    display: flex;
+    gap: 50px;
+    border-radius: 10px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+
+  .infocontainer {
+    flex: 1;
+    width: fit-content;
+    background-color: var(--bgSoft);
+    font-weight: bold;
+    color: var(--textSoft);
+    height: fit-content;
+  }
+ 
+}
+
+
+.formContainer {
+  flex: 3;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: var(--bgSoft);
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form input,
+.form select,
+.form textarea {
+  color: var(--text);
+  border-radius: 10px;
+  padding: 30px;
+  margin-bottom: 30px;
+  border: 2px solid #2e374a;
+  background-color: #2e374a73;
+  margin: 10px 0px;
+}
+.form input,
+.form textarea,
+.form select:focus {
+  outline: none;
+  color: var(--text);
+}
+.form label {
+  font-weight: bold;
+}
+.form select {
+  font-size: 18px;
+}
+.form button {
+  width: 100%;
+  padding: 20px;
+  background-color: teal;
+  color: var(--text);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.form button:hover {
+  background-color: rgba(0, 128, 128, 0.486);
+}
