@@ -8,7 +8,7 @@ const Homepage = () => {
       <div className={styles.container}>
         <h1 className={styles.h1}>Welcome</h1>
 
-        <Link href={"/login"}>
+        <Link href={"/login?callbackUrl=https%3A%2F%2Fnextadminmega.vercel.app%2Flogin"}>
           <button className={styles.button}>Login</button>
         </Link>
       </div>
