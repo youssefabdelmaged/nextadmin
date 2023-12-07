@@ -21,7 +21,7 @@ const nextConfig = {
             },
             {
                 protocol:"https",
-                hostname:"i0.wp.com"
+                hostname:"images.unsplash.com"
             },
         ]
     }
