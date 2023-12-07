@@ -6,7 +6,7 @@ import { IoMdAdd } from "react-icons/io";
 import { LuView } from "react-icons/lu";
 import { MdDelete } from "react-icons/md";
 import Link from "next/link";
-import Pagination from "@/app/ui/dashboard/pagination/pagination";
+import Pagination from "@/app/ui/dashboard/pagination/Pagination";
 import { fetchUsers } from "@/app/lib/data";
 import { DeleteUser } from "@/app/lib/actions";
 
